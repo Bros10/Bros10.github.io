@@ -1,7 +1,11 @@
 #!/bin/bash
 
 ###Script used to automate creating blog posts
-###Usage bash blog.sh Title 
+###Usage bash blog.sh [Title] [Categorie1,Catergorie2] [Tag1,Tag2] 
+
+IN="$2"
+arrIN=(${IN//,/ })
+echo "$arrIN"
 
 dt=$(date '+%Y-%m-%d %H:%M:%S');
 d=$(date '+%Y-%m-%d');
@@ -23,10 +27,6 @@ Writeup coming soon
 
 echo "$text"
 
-#touch /_posts/$filename
 echo "$text" > _posts/$filename 
-###printf "$text" "$1" "$dt" 
+###bash run.sh
 
-###OUTPUT=$(printf "$text" "$1" "$dt" 2>&1)
-
-###echo "$OUTPUT" > /_posts/
