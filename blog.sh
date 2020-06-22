@@ -3,8 +3,8 @@
 ###Script used to automate creating blog posts
 ###Usage bash blog.sh Title 
 
-dt=$(date '+%d-%m-%Y %H:%M:%S');
-d=$(date '+%d-%m-%Y');
+dt=$(date '+%Y-%m-%d %H:%M:%S');
+d=$(date '+%Y-%m-%d');
 
 filename="$d-$1.md"
 
