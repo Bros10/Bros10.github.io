@@ -6,10 +6,6 @@ categories: [blogging, Tutorial]
 tags: [writing]
 ---
 
-# Archetype - Starting Point Writeup 
-
-
-
 ## Introduction
 
 I decided to write this walkthrough of the initial Starting Point machine on HackTheBox (HTB) due to the fact that I was attempting to walk a friend through the first machine with the use of the "Starting Point Tutorial" created and provided by HTB themselves. However I noticed that they don't explain a lot of the commands and thought processes that they go through and their overall approach doesn't seem to be aimed at absolute beginners. So I hope that this Walkthrough will be more user friendly and you'll learn a thing or two if you've never touched HTB. 
