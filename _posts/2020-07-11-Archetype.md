@@ -51,7 +51,7 @@ To begin the initial stage we are going to be using nmap (Network Mapper), which
 nmap -sV -sC -oA scan 10.10.10.27
 ```
 
-The `-sV` flag will probe open ports to determine service/version information, `-sC` flag will run default scripts, `-oA scan ` flag will save the output to `scan.nmap`, `scan.nmap` and `scan.xml` , allowing us to come back to the scan later on if needed, meaning we won't have to run the nmap scan again. Here is the output for said command:
+The `-sV` flag will probe open ports to determine service/version information, `-sC` flag will run default scripts, `-oA scan ` flag will save the output to `scan.nmap`, `scan.gnmap` and `scan.xml` , allowing us to come back to the scan later on if needed, meaning we won't have to run the nmap scan again. Here is the output for said command:
 
 ```bash
 Starting Nmap 7.80 ( https://nmap.org ) at 2020-07-02 18:38 BST
