@@ -2,7 +2,7 @@
 title: Archetype - Starting Point Writeup 
 author: Bros10
 date: 2020-07-11 12:17:26 +0000
-categories: [blogging, Tutorial]
+categories: [Hack-The-Box, Windows]
 tags: [writing]
 ---
 
