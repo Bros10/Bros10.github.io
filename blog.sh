@@ -4,12 +4,8 @@
 ###Usage bash blog.sh [Title] [Categorie1,Catergorie2] [Tag1,Tag2] 
 
 
-##IN="$2"
-##arrIN=(${IN//,/ })
-##echo "$arrIN[1]"
 
 dt=$(date '+%Y-%m-%d %H:%M:%S');
-d=$(date '+%Y-%m-%d');
 
 filename="$d-$1.md"
 
